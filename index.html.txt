@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productive Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#plan-schedule">Plan Schedule</a></li>
+                <li><a href="#progress">Progress</a></li>
+                <li><a href="#community">Community</a></li>
+                <li><a href="#contribution">Contribution</a></li>
+                <li><a href="#login">Log In</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="page">
+            <h1>Welcome to Your Productive Space</h1>
+            <p>Where your productivity meets aesthetics.</p>
+        </section>
+        <section id="plan-schedule" class="page">
+            <h1>Plan Schedule</h1>
+            <p>Organize your tasks and schedules effectively.</p>
+        </section>
+        <section id="progress" class="page">
+            <h1>Progress</h1>
+            <p>Track your progress and milestones.</p>
+        </section>
+        <section id="community" class="page">
+            <h1>Community</h1>
+            <p>Join our community and collaborate.</p>
+        </section>
+        <section id="contribution" class="page">
+            <h1>Contribution</h1>
+            <p>Contribute to our projects and make a difference.</p>
+        </section>
+        <section id="login" class="page">
+            <h1>Log In</h1>
+            <p>Access your personalized dashboard.</p>
+            <form>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password">
+                <button type="submit">Log In</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Productive Website</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
